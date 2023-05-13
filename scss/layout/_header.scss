@@ -1,0 +1,36 @@
+    /* Inicio de header */
+    header{
+        background-color: rgb(34, 33, 33);
+        width: 100%;
+        top: 0;
+        list-style: none;
+        @include D-Flex (space-between, center);
+    }
+    
+    header ul{
+            list-style-type: none;
+    }
+    
+    
+    
+    .icono{
+        width: 70px;
+    }
+    
+    header input{
+        width: 400px;
+        height: 40px;
+        
+        }
+    
+    nav ul{
+        @include Flex-justify(space-evenly);
+        padding: 20px;
+    }
+    .navIndex a{
+        color: white;
+        font-style: none;
+        padding: 20px;
+        text-decoration: none;
+    }
+                    /* Fin de header */

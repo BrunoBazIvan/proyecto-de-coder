@@ -1,0 +1,55 @@
+   /*Ayudas  */
+   form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      max-width: 500px;
+      margin: auto;
+   }
+
+   label {
+      margin-bottom: 5px;
+      color: white;
+      font-size: larger;
+   }
+
+   input[type="text"],
+   input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+   }
+
+   input[type="submit"] {
+      background-color: #bd9765;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      grid-column: 1 / span 2;
+   }
+
+   .desAyuda {
+      background-color: rgb(201, 95, 57);
+      text-align: center;
+      border: 2px black solid;
+      border-radius: 2%;
+      font-size: large;
+      margin-bottom: 5px;
+      margin-top: 5px;
+   }
+
+   /* boostrap */
+   .form-estilo-personalizado {
+      display: block;
+      max-width: 550px;
+      margin: auto;
+   }
+
+   .form-control {
+      border-radius: 0;
+   }
+
+   /* Fin de Ayudas */

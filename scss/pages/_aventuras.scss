@@ -1,0 +1,37 @@
+/* Aventuras */
+.gridAventura{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+
+    }
+  .desAventura{
+    background-color: rgb(201, 95, 57) ;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 2%;
+    font-size: large;
+    width:70% ;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .desAlguAve{
+    background-color: rgb(201, 95, 57) ;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 2%;
+    font-size: large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 30%;
+  }
+.imgTamaño{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.iframeAventura{
+    width: 500px;
+    height: 300px;
+}

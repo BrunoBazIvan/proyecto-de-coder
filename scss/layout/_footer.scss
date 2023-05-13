@@ -1,0 +1,22 @@
+    /* Inicio de footer */
+
+    footer{
+        height:70px;
+        background-color:rgb(22, 21, 21) ;
+    }
+    footer ul{
+        @include Flex-justify(space-evenly)
+    }
+        ul li {
+        list-style: none;
+    }
+        
+    .footer{
+        color: rgb(218, 213, 213);
+        font-style: none;
+        padding: 20px;
+        text-decoration: none
+        
+    }
+
+                    /* fin de footer */

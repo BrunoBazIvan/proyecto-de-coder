@@ -1,0 +1,17 @@
+@mixin D-Flex ($justify, $aling){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+@mixin Flex-justify ($justify){
+    display: flex;
+    justify-content: $justify;
+}
+@mixin Flex-aling ($aling){
+    display: flex;
+    align-items: $aling;
+}
+
+$font-family:(
+    
+);

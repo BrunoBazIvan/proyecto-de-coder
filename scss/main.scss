@@ -1,0 +1,27 @@
+@import "./base/reset";
+
+@import "./variables/variables.scss";
+
+@import "./mediaquery/mediaquery";
+
+@import "./components/images";
+
+@import "./components/intro";
+
+@import "./components/seccions";
+
+@import "./components/title";
+
+@import "./layout/header";
+
+@import "./layout/footer";
+
+@import "./pages/index";
+
+@import "./pages/aventuras";
+
+@import "./pages/ayudas";
+
+@import "./pages/manuales";
+
+@import "./pages/personajes";
