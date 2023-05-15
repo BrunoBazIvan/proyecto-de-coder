@@ -5,25 +5,19 @@
         grid-template-rows: 1fr 1fr 1fr 1fr ;
     }
     .M1{
-        grid-row-start:1 ;
-        grid-row-end:2 ;
-        grid-column: 2;
+        @include Grid-row-colum (1, 2, 2);
     }
     .M2{
-        grid-row-start:2;
-        grid-row-end:3;
-        grid-column: 2;
+        @include Grid-row-colum (2, 3, 2);
     }
     .M3{
-        grid-row-start:3 ;
-        grid-row-end:4 ;
-        grid-column: 2;
+        @include Grid-row-colum (3, 4, 2);
     }
+
     .M4{
-        grid-row-start:4 ;
-        grid-row-end:5 ;
-        grid-column: 2;
+        @include Grid-row-colum (4, 5, 2);
     }
+
     .manuales{
         flex-flow: column;
         @include Flex-aling (center);
@@ -36,10 +30,17 @@
     @include Flex-aling (center);
     }
 
-    .post img{
-        width: 300px;
-        box-shadow: 0 8px 8px black;
-    }
+    // animacion de img
+    .animacionImg {
+            width: 300px;
+            box-shadow: 0 8px 8px black;
+            transition: 0.3s;
+        }
+    .animacionImg:hover {
+            transition: 0.3s;
+            width: 310px;
+            box-shadow: 0 10px 10px rgb(253, 206, 118);
+        }
 
     .post div{
         background-color: brown;
@@ -49,7 +50,7 @@
         font-family: 'PT Serif', serif;
         margin-right: 50px;
         box-shadow: 3px 8px 8px rgb(0, 0, 0);
-        
+
     }
 
     .post a{
@@ -57,6 +58,7 @@
         color: grey;
         font-size: xx-large;
     }
+
 
                     
                     

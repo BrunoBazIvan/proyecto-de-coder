@@ -12,6 +12,8 @@
     align-items: $aling;
 }
 
-$font-family:(
-    
-);
+@mixin Grid-row-colum ($rowS, $rowE, $colums){
+    grid-row-start:$rowS ;
+    grid-row-end:$rowE ;
+    grid-column: $colums;
+}
