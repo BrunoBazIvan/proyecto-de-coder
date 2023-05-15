@@ -9,6 +9,10 @@ main {
   background-image: url(../img/Backgranud\ \(1\).jpg);
 }
 
+.color-titulos, .seccion2 .texto2 {
+  color: brown;
+}
+
 /* Media query para pantallas más pequeñas */
 @media only screen and (max-width: 780px) {
   .centrarElementos {
@@ -124,7 +128,7 @@ main {
 
 /* Inicio de titulo */
 h1 {
-  font-family: "Almendra SC", serif;
+  font-family: "Almendra SC";
   background-color: brown;
   font-size: xx-large;
   border: 1px solid black;
@@ -217,11 +221,12 @@ ul li {
   justify-content: center;
 }
 .seccion2 .texto2 {
-  background-color: brown;
+  text-align: center;
   width: 800px;
   font-size: larger;
   border: 2px solid black;
   margin: 40px;
+  color: rgb(36, 36, 36);
 }
 
 .seccion3 {
@@ -452,9 +457,6 @@ input[type=submit] {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-column: 2;
 }
 
 .element2 {
@@ -509,7 +511,7 @@ table {
 
 thead th {
   background-color: brown;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 

@@ -2,7 +2,7 @@
     margin-top: 50px;
     @include D-Flex (space-evenly, center);
     .intro {
-        background-color: rgb(201, 95, 57);
+        background-color:$color-backgraund;
         width: 300px;
         border: solid 1px black;
         border-radius: 5%;
@@ -14,11 +14,13 @@
 .seccion2{
     @include Flex-justify (center);
     .texto2{
-        background-color: brown;
+        text-align: center;
+        @extend .color-titulos;
         width: 800px;
         font-size: larger;
         border: 2px solid black;
         margin: 40px;
+        color:rgb(36, 36, 36);
     }
 }
 

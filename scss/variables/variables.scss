@@ -17,3 +17,16 @@
     grid-row-end:$rowE ;
     grid-column: $colums;
 }
+// como llamarlo: map-get($font-family, "nombre de variable a usar") ejemplo: map-get($font-family, "Textos");
+$font-family: (
+    Titulos : "Almendra SC",
+    Textos : "PT Serif"
+);
+
+// como llamarlo: @extend .nombreDeVariableUsada (ejemplo: @extend .color-titulos;)
+.color-titulos{
+    color: brown;
+}
+
+// como llamarlo: propiedad: $variableAUsar (ejemplo: color: $color-backgraund;)
+$color-backgraund: rgb(201,95,57);
