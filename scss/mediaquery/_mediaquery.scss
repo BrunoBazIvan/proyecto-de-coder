@@ -1,81 +1,81 @@
- /* Media query para pantallas más pequeñas */
- @media only screen and (max-width: 780px) {
-    .centrarElementos{
-        display: inline-block;
-        justify-content: center;
-        align-self: center;
-        margin: 1%;
-    }
-    .desPersonaje{
-        margin-top: 5%;
-    }
-    .post{
-            font-size: x-large;
-            display:inline-block;
-            margin: 30px;
-            align-items: center;
+//  /* Media query para pantallas más pequeñas */
+//  @media only screen and (max-width: 780px) {
+//     .centrarElementos{
+//         display: inline-block;
+//         justify-content: center;
+//         align-self: center;
+//         margin: 1%;
+//     }
+//     .desPersonaje{
+//         margin-top: 5%;
+//     }
+//     .post{
+//             font-size: x-large;
+//             display:inline-block;
+//             margin: 30px;
+//             align-items: center;
             
-    }
-    .post div{
-        margin-top: 5%;
-        margin-bottom:5% ;
-    }
-  }
-     /* Media query para pantallas aun más pequeñas */
-     @media only screen and (max-width:520px) {
-        .iframeAventura{
-            width: 400px;
-            height: 200px;
-        }
-       }
-  /* Media query para pantallas aun más pequeñas */
-@media only screen and (max-width: 410px) {
-    .centrarElementos{
-        display: inline-block;
-        justify-content: center;
-        align-self: center;
-        margin: 1%;
-    }
-    .gridPj{
-        display: grid;
-        grid-template-columns:0.3fr 1fr 0.3fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
-    }
-    .desPersonaje{
-        width: 250px;
-        margin-top: 5%;
-    }
-    .anchoMq{
-        width: 250px;
-        height: 350px;
-    }
-    .anchoDes{
-        width: 200px;
-    }
-    .MedidaMq{
-        width: 250px;
-    }
-    .post div{
-        margin-right: 0;
-        margin-bottom: 3%;
-    }
-    .manualesGrid{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
-    }
-    .post{
-        font-size:x-large;
-        display:inline-block;
+//     }
+//     .post div{
+//         margin-top: 5%;
+//         margin-bottom:5% ;
+//     }
+//   }
+//      /* Media query para pantallas aun más pequeñas */
+//      @media only screen and (max-width:520px) {
+//         .iframeAventura{
+//             width: 400px;
+//             height: 200px;
+//         }
+//        }
+//   /* Media query para pantallas aun más pequeñas */
+// @media only screen and (max-width: 410px) {
+//     .centrarElementos{
+//         display: inline-block;
+//         justify-content: center;
+//         align-self: center;
+//         margin: 1%;
+//     }
+//     .gridPj{
+//         display: grid;
+//         grid-template-columns:0.3fr 1fr 0.3fr;
+//         grid-template-rows: 1fr 1fr 1fr 1fr ;
+//     }
+//     .desPersonaje{
+//         width: 250px;
+//         margin-top: 5%;
+//     }
+//     .anchoMq{
+//         width: 250px;
+//         height: 350px;
+//     }
+//     .anchoDes{
+//         width: 200px;
+//     }
+//     .MedidaMq{
+//         width: 250px;
+//     }
+//     .post div{
+//         margin-right: 0;
+//         margin-bottom: 3%;
+//     }
+//     .manualesGrid{
+//         display: grid;
+//         grid-template-rows: 1fr 1fr 1fr 1fr ;
+//     }
+//     .post{
+//         font-size:x-large;
+//         display:inline-block;
         
-        align-items: center;
-        width: 300px;
-}
-    .post div{
-        margin-top: 5%;
-        margin-bottom:5% ;
-    }
-    .iframeAventura{
-        width: 300px;
-        height: 100px;
-    }
-  }
+//         align-items: center;
+//         width: 300px;
+// }
+//     .post div{
+//         margin-top: 5%;
+//         margin-bottom:5% ;
+//     }
+//     .iframeAventura{
+//         width: 300px;
+//         height: 100px;
+//     }
+//   }

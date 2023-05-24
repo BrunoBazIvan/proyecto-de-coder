@@ -30,3 +30,7 @@ $font-family: (
 
 // como llamarlo: propiedad: $variableAUsar (ejemplo: color: $color-backgraund;)
 $color-backgraund: rgb(201,95,57);
+@mixin grid-lindo ($rows, $columns){
+    grid-column: $columns;
+    grid-row: $rows;
+}
